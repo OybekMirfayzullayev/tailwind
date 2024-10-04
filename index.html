@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                btncolor: "#1D75F9",
+                textcolor: "#9E9E9E",
+                bgkcolor: "#F9B21D",
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="box-border">
+    <nav class="flex items-center justify-between h-[100px] w-[90%] bg-white mx-auto select-none ">
+        <img src="images/logo.png" alt="" class="w-40">
+        <ul class="flex justify-around gap-[50px] text-textcolor text-[15px] font-medium"  >
+            <li class="hover:font-bold hover:text-black">Asosiy</li>
+            <li class="hover:font-bold hover:text-black">Biz haqimizda</li>
+            <li class="hover:font-bold hover:text-black">Kurslar</li>
+            <li class="hover:font-bold hover:text-black">Tariflar</li>
+            <li class="hover:font-bold hover:text-black">Biz bilan bog`lanish</li>
+        </ul>
+        <button class="w-44 h-10 rounded-[14px] bg-btncolor text-white text-[17px] font-semibold
+        active:border[1px] active:text-[#1D75F9] active:bg-white ">Kirish</button>
+    </nav>
+
+    <header class="flex w-[90%] h-[700px] bg-bgkcolor mx-auto rounded-[48px] overflow-hidden">
+        <div class="w-[45%] flex justify-evenly flex-col px-[50px]">
+          <h1 class="font-extrabold text-[40px] w-[380px] text-white">Ilm bir yodlash, Ming takrorlashdir</h1>
+          <button class="w-[160px] h-[40px] rounded-[13px] bg-btncolor bg-btncolor text-white text-[17px] font-semibold">Kirish</button>
+          <p class="w-[500px] font-normal text-[26px] text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, error libero. Magni nam deleniti quisquam.</p>
+        </div>
+        <div class="w-[55%] flex items-center justify-center">
+          <img src="images/ramadan-saudi-arabia-islamic-background 1.png" alt="" class="w-[90%]">
+        </div>
+    </header>
+
+    <section class="w-[90%] h-[370px] bg-white mx-auto flex items-center justify-center flex-col mb-10">
+      <h1 class="font-bold text-[50px]">Biz haqimizda</h1>
+      <p class="font-normal text-[30px] mb-10">2022-yil 2-noyabrda o`z faoliyatini rasmiy tarzda online boshlagan</p>
+      <div class="flex flex-row w-[100%] h-auto gap-[50px]">
+        <div class="w-[50%] h-[140px] bg-btncolor rounded-[25px] flex items-center justify-center">
+          <h1 class="text-white text-[40px] font-medium">Online kurslar</h1>
+        </div>
+        <div class="w-[50%] h-[140px] bg-btncolor rounded-[25px] flex items-center justify-center">
+          <h1 class="text-white text-[40px] font-medium">Offline kurslar</h1>
+        </div>
+      </div>
+    </section>
+
+    <div class=" w-[90%] h-[700px] bg-[#C6F25D] mx-auto rounded-[45px] flex items-center justify-center flex-col mb-20">
+      <h1 class="text-[50px] font-bold">Ustozlar</h1>
+      <p class="text-[38px] font-medium mb-10">B2 va C1 sertifikatiga ega. Maxsus metod asosida dars berishadi</p>
+      <div class="w-[170px] h-[170px] bg-white rounded-full mb-5"></div>
+      <h1 class="text-[45px] font-bold">Mirfayzullayev Oybek</h1>
+      <p class="text-[35px] w-[80%] font-medium mb-10 text-center">Ko`kaldosh madrasasi bitiruvchisi. “Ali Ibn Tolib” jome masjidi noibi,
+        10 yillik boshlang`ich arab tili tajribasiga ega. 
+        “Haris Talim” o`quv markazi asoschisi</p>
+    </div>
+
+    <div class="w-[90%] h-[380px] bg-btncolor mx-auto rounded-[35px] flex mb-20">
+      <div class="w-[70%] flex items-center justify-evenly flex-col">
+        <h1 class="text-white font-extrabold text-[50px]">O`quv kursi kimlar uchun</h1>
+        <div class="w-[100%] h-[200px] flex items-center justify-center gap-10">
+          <div class="w-[50%] h-[75%] bg-white rounded-[24px] flex items-center justify-center ">
+            <h1 class=" w-[250px] text-btncolor text-[30px] font-bold">0 dan arab harf o`rganmoqchilar</h1>
+          </div>
+          <div class="w-[400px] h-[75%] bg-white rounded-[24px] flex items-center justify-center ">
+            <h1 class="w-[250px] text-btncolor text-[30px] font-bold">Arab harflarini taniydiganlar</h1>
+          </div>
+        </div>
+      </div>
+      <div class="w-[30%] flex items-center justify-center"><img src="images/Group.png" alt="" class="w-[50%]"></div>
+    </div>
+
+    <div class="w-[90%] h-[650px] bg-white mx-auto flex items-center justify-center gap-1 flex-col ">
+      <h1 class="font-extrabold text-[45px]">Afzalliklari</h1>
+      <div class="w-[90%] h-[550px] flex items-center justify-center gap-5 flex-col flex-wrap" >
+        <div class="w-[50%] h-[140px] bg-white flex items-center gap-10">
+          <div class="w-[90px] h-[90px] flex items-center justify-center bg-[#C6F25D] rounded-[22px]">
+            <h1 class="font-bold text-[42px]">1</h1>
+          </div>
+          <p class="font-medium text-[25px] w-[450px]">Arab harflarini chuqurlashtirilgan tartibda o`zlashtirish</p>
+        </div>
+        <div class="w-[50%] h-[140px] bg-white flex items-center gap-10">
+          <div class="w-[90px] h-[90px] flex items-center justify-center bg-[#C6F25D] rounded-[22px]">
+            <h1 class="font-bold text-[42px]">3</h1>
+          </div>
+          <p class="font-medium text-[25px] w-[450px]">Yangi metodlarda sifatli va oson o`rganish</p>
+        </div>
+        <div class="w-[50%] h-[140px] bg-white flex items-center gap-10">
+          <div class="w-[90px] h-[90px] flex items-center justify-center bg-[#C6F25D] rounded-[22px]">
+            <h1 class="font-bold text-[42px]">5</h1>
+          </div>
+          <p class="font-medium text-[25px] w-[450px]">Arabiy kitobni ravon o`qish,
+            o`zingizga va atrofdagilarga yoqimli eshitilishi</p>
+        </div>
+        <div class="w-[50%] h-[140px] bg-white flex items-center gap-10">
+          <div class="w-[90px] h-[90px] flex items-center justify-center bg-[#C6F25D] rounded-[22px]">
+            <h1 class="font-bold text-[42px]">2</h1>
+          </div>
+          <p class="font-medium text-[25px] w-[450px]">Bir darsni takror va tkror ko`rishlik imkoiyati</p>
+        </div>
+        <div class="w-[50%] h-[140px] bg-white flex items-center gap-10">
+          <div class="w-[90px] h-[90px] flex items-center justify-center bg-[#C6F25D] rounded-[22px]">
+            <h1 class="font-bold text-[42px]">4</h1>
+          </div>
+          <p class="font-medium text-[25px] w-[450px]">Har bir darsda o`rganganlaringiz nazrati</p>
+        </div>
+        <div class="w-[50%] h-[140px] bg-white flex items-center gap-10">
+          <div class="w-[90px] h-[90px] flex items-center justify-center bg-[#C6F25D] rounded-[22px]">
+            <h1 class="font-bold text-[42px]">6</h1>
+          </div>
+          <p class="font-medium text-[25px] w-[450px]">Tinglab xato yoki
+            bexato ekanini farqlay olish</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
